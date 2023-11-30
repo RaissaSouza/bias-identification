@@ -1,4 +1,4 @@
-# Biases Exploration
+# Shortcut Learning - Biases Exploration
 <div align="center">
 
 </div>
@@ -102,4 +102,4 @@ Full environment in `requirements.txt`.
 
 
 ## Resources
-* Questions? Open an issue or send an [email](mailto:raissa_souzadeandrad@ucalgary.ca?subject=Bias-explorating).
+* Questions? Open an issue or send an [email](mailto:raissa_souzadeandrad@ucalgary.ca?subject=Bias-exploration).

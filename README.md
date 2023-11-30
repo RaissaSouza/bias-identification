@@ -8,7 +8,7 @@
 </p>
 
 
-Implementation for investigating potential biases in a disease classifier IEEE Journal of Biomedical and Health Informatics (J-BHI) paper: "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (link:).
+Implementation for potential biases identification in a Parkinson's disease classifier that is under review by the IEEE Journal of Biomedical and Health Informatics (J-BHI): "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (link:coming soon).
 
 Our code here is based on the investigation of a Parkinson's disease classification model encode three sources of biases: sex, site, and scanner.
 
@@ -23,7 +23,7 @@ If you find our framework, code, or paper useful to your research, please cite u
 Sharing multicenter imaging datasets can be advantageous to increase data diversity and size but may lead to spurious correlations between site-related biological and non-biological image features and target labels, which machine learning (ML) models may exploit as shortcuts. To date, studies analyzing how and if deep learning models may use such effects as a shortcut are scarce. Thus, the aim of this work was to investigate if site-related effects are encoded in the feature space of an established deep learning model designed for Parkinson's disease (PD) classification based on T1-weighted MRI datasets. Therefore, all layers of the PD classifier were frozen, except for the last layer of the network, which was replaced by a linear layer that was exclusively re-trained to predict three potential bias types (biological sex, scanner type, and originating site). Our findings based on a large database consisting of 1880 MRI scans collected across 41 centers show that the feature space of the established PD model (74% accuracy) can be used to classify sex (75% accuracy), scanner type (79% accuracy), and site location (71% accuracy) with high accuracies despite this information never being explicitly provided to the PD model during original training. Overall, the results of this study suggest that trained image-based classifiers may use unwanted shortcuts that are not meaningful for the actual clinical task at hand. This finding may explain why many image-based deep learning models do not perform well when applied to data from centers not contributing to the training set.  
 
 ## PD classifier
-We use the state-of-the-art simple fully convolutional network (SFCN) () as our deep learning architecture. The Adam optimizer with an initial learning rate of 0.001, a decay rate of 0.003, and batch size 5 was used during training. The best model (lowest binary cross entropy testing loss) was saved for evaluation based on early stopping with patience of 10 epochs. 
+We use the state-of-the-art simple fully convolutional network (SFCN) (doi: 10.1016/J.MEDIA.2020.101871) as our deep learning architecture. The Adam optimizer with an initial learning rate of 0.001, a decay rate of 0.003, and batch size 5 was used during training. The best model (lowest binary cross entropy testing loss) was saved for evaluation based on early stopping with patience of 10 epochs. 
 The code used is in: 
 ```bash
 ├── code/pd_training

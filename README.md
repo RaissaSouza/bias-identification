@@ -1,4 +1,4 @@
-# Shortcut Learning - Biases Exploration
+# Shortcut Learning - Biases Identification
 <div align="center">
 
 </div>
@@ -35,7 +35,7 @@ To run this code, you will need to change the params variable to match the size 
 python sfcn_pd.py -fn_train ./training_set.csv -fn_test ./testing_set.csv -model_name ./best_model_pd
 ```
 
-## Shortcut/bias exploration
+## Shortcut/bias identification
 To identify possible shortcuts in the trained model, all layers of the pre-trained PD classifier model were frozen, except for the final layer, which was replaced with a customized linear layer designed to classify the specific biases of interest: sex (n=2), site (n=41), and scanner (n=19).
 For sex classification, we employed a binary output layer with a sigmoid activation function, while for site and scanner type classification, multi-class output layers with softmax activation functions were used. For all cases, the Adam optimizer and early stopping were used as for the PD  model.
 The code used for **SEX** exploration is in: 

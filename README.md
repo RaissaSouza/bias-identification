@@ -8,15 +8,29 @@
 </p>
 
 
-Implementation for potential biases identification in a Parkinson's disease classifier that is under review by the IEEE Journal of Biomedical and Health Informatics (J-BHI): "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (link:coming soon).
+Implementation for potential biases identification in a Parkinson's disease classifier that is under review by the IEEE Journal of Biomedical and Health Informatics (J-BHI): "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (https://doi.org/10.1109/JBHI.2024.3352513).
 
 Our code here is based on the investigation of a Parkinson's disease classification model encode three sources of biases: sex, site, and scanner.
 
 If you find our framework, code, or paper useful to your research, please cite us!
 ```
-@inproceedings{}
+@article{Souza2024,
+   author = {Raissa Souza and Anthony Winder and Emma A. M. Stanley and Vibujithan Vigneshwaran and Milton Camacho and Richard Camicioli and Oury Monchi and Matthias Wilms and Nils D. Forkert},
+   doi = {10.1109/JBHI.2024.3352513},
+   issn = {2168-2194},
+   issue = {4},
+   journal = {IEEE Journal of Biomedical and Health Informatics},
+   month = {4},
+   pages = {2047-2054},
+   title = {Identifying Biases in a Multicenter MRI Database for Parkinson's Disease Classification: Is the Disease Classifier a Secret Site Classifier?},
+   volume = {28},
+   url = {https://ieeexplore.ieee.org/document/10388228/},
+   year = {2024},
+}
+
 ```
 ```
+Souza, R., Winder, A., Stanley, E. A. M., Vigneshwaran, V., Camacho, M., Camicioli, R., Monchi, O., Wilms, M., & Forkert, N. D. (2024). Identifying Biases in a Multicenter MRI Database for Parkinson’s Disease Classification: Is the Disease Classifier a Secret Site Classifier? IEEE Journal of Biomedical and Health Informatics, 28(4), 2047–2054. https://doi.org/10.1109/JBHI.2024.3352513
 ```
 
 ### Abstract 

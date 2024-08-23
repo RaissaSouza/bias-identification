@@ -8,7 +8,7 @@
 </p>
 
 
-Implementation for potential biases identification in a Parkinson's disease classifier that is under review by the IEEE Journal of Biomedical and Health Informatics (J-BHI): "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (https://doi.org/10.1109/JBHI.2024.3352513).
+Implementation for potential biases identification in a Parkinson's disease classifier that is published by the IEEE Journal of Biomedical and Health Informatics (J-BHI): "[Identifying biases in a multicenter MRI database for  Parkinson’s disease classification: Is the disease classifier a secret site classifier?] (https://doi.org/10.1109/JBHI.2024.3352513).
 
 Our code here is based on the investigation of a Parkinson's disease classification model encode three sources of biases: sex, site, and scanner.
 
